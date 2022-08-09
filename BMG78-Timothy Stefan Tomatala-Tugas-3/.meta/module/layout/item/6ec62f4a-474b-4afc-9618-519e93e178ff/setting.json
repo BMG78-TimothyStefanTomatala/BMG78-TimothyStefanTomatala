@@ -1,0 +1,107 @@
+{
+  "data": {
+    "md5": "2b13a47905e8594ac285ca741bbd8d7b",
+    "path": "asset/Actor/Pickaxe Orange Robot/attacktutor.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 14,
+              "FrameColours": {
+                "b": 0,
+                "r": 251
+              },
+              "FrameEnabled": true,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "4f79a59a-5778-4e4f-bc4c-65535fa436f3"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -0.7058146330164
+                },
+                "UDim_Y": {
+                  "Offect": -0.4485908490981
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 357.14696073472
+                },
+                "UDim_Y": {
+                  "Offect": 200.6598871522
+                }
+              },
+              "Text": "Wah! didepan ada monster!&backslashnkamu bisa coba tekan tombol&backslashnpedang yang ada di layar kamu&backslashnuntuk memulai menyerang!&backslashnnamun perlu diingat, kamu&backslashnpunya cooldown 1 detik untuk&backslashnmenyerang~",
+              "word_warpped": false
+            }
+          ],
+          "id": {
+            "value": "446be0d3-af87-4ce7-8dc3-f239529b722e"
+          },
+          "Image": {
+            "asset": "asset/Actor/Pickaxe Orange Robot/chat bubble.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 7.4752120500232e-05
+            },
+            "UDim_Y": {
+              "Offect": 5.8624312999633e-06
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 399.85907280443
+            },
+            "UDim_Y": {
+              "Offect": 299.8429033756
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "ff6b4674-ec9e-479c-8ca8-dcbef85a3434"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": 399.08913026438
+        },
+        "UDim_Y": {
+          "Offect": 143.56501607371
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 400.0
+        },
+        "UDim_Y": {
+          "Offect": 300.00000000001
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "2b13a47905e8594ac285ca741bbd8d7b",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

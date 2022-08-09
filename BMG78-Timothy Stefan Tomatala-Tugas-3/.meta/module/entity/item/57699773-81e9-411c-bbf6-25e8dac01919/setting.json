@@ -1,0 +1,21 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Pickaxe Orange Robot/g2034_robotskin_default.actor"
+    },
+    "girlactor": {
+      "asset": "asset/Actor/Pickaxe Orange Robot/g2034_robotskin_default.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_57699773-81e9-411c-bbf6-25e8dac01919"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5bea45bdd2d5495b34aab0b9c05ceb62",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

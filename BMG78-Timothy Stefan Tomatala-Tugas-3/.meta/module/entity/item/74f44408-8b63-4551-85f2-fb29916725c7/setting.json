@@ -1,0 +1,26 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Brown Wood Fence/Fence1.actor"
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": "asset/Actor/Brown Wood Fence/Fence1.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_74f44408-8b63-4551-85f2-fb29916725c7"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "29e4681edb7878710eb580373415d8f3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "data": {
+    "AntiClockwise": true,
+    "attackBound": {
+      "position": {
+        "z": 0.6
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      }
+    },
+    "attackBoundSkillSystemCfg": {
+      "position": {
+        "z": 0.6
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      }
+    },
+    "attackTarget": {
+      "targetType": "hitNpc"
+    },
+    "castAction": {
+      "castAction": "attack",
+      "custom_time": true
+    },
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Actor/charactor/charactor_boy/effect/jingqiwuqi_01.effect"
+      },
+      "scale": {
+        "x": 8,
+        "y": 8,
+        "z": 8
+      }
+    },
+    "cdAnimation": "BottomToTop",
+    "cdTime": {
+      "value": 20
+    },
+    "damage": 20,
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_Vertical",
+    "FillType": "Vertical",
+    "hurtDistance": 0.5,
+    "name": {
+      "value": "skill_system_4eb67129-5037-4a0a-b30b-4d0d2f2378ce"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+    },
+    "skillIconPos": {
+      "area_number": 7
+    },
+    "skillIconPushed": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_nor.png"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "eb8520dd6e990163abd13f3780ec927d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

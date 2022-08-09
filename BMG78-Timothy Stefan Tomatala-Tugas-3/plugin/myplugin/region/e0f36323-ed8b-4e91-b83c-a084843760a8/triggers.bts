@@ -1,0 +1,21 @@
+REGION_ENTER {
+	MoveAllPlayers(
+		entity = $obj1,
+		region = {
+			map = "",
+			max = {
+				__OBJ_TYPE = "Vector3i",
+				x = -10,
+				y = -2,
+				z = -45
+			},
+			min = {
+				__OBJ_TYPE = "Vector3i",
+				x = -11,
+				y = -3,
+				z = -46
+			}
+		}
+	)
+	Damage(damage = 10, entity = $obj1)
+}

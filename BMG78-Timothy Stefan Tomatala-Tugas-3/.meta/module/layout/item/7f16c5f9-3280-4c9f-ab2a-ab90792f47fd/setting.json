@@ -1,0 +1,132 @@
+{
+  "data": {
+    "md5": "55f3379b62a9b4f605e88b813ba0aa89",
+    "path": "asset/Actor/Pickaxe Orange Robot/winner.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 14,
+              "FrameColours": {
+                "b": 0,
+                "r": 251
+              },
+              "FrameEnabled": true,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "7ce50ac0-d77a-490e-987b-3dc296f9c3b8"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -0.7058892104831
+                },
+                "UDim_Y": {
+                  "Offect": 22.391275550669
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 357.14696073472
+                },
+                "UDim_Y": {
+                  "Offect": 125.69451685477
+                }
+              },
+              "Text": "Wah! kamu sudah berhasil&backslashnmemenangkan world tugas 3!&backslashnselamat ya!&backslashnsilahkan masuk ke pintu untuk&backslashnmengakhiri permainan!",
+              "word_warpped": false
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "id": {
+                "value": "5f1cc41c-091c-4b9b-9e12-6be20c4bd460"
+              },
+              "Image": {
+                "asset": "asset/fireworks.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": 50.698587930952
+                },
+                "UDim_Y": {
+                  "Offect": -104.93351929859
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 276.04293693614
+                },
+                "UDim_Y": {
+                  "Offect": 251.33712136735
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "ce65b617-6e45-4a8e-b923-157ed9f505dc"
+          },
+          "Image": {
+            "asset": "asset/Actor/Pickaxe Orange Robot/chat bubble.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": -4.4576185500134e-05
+            },
+            "UDim_Y": {
+              "Offect": 60.725017905163
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 399.85907280443
+            },
+            "UDim_Y": {
+              "Offect": 299.8429033756
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "3a9db88e-a981-4fe7-856a-176c1e1aecfa"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": 399.08913026438
+        },
+        "UDim_Y": {
+          "Offect": 82.658668798976
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 400.0
+        },
+        "UDim_Y": {
+          "Offect": 419.73376691344
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "55f3379b62a9b4f605e88b813ba0aa89",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

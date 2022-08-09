@@ -1,0 +1,45 @@
+{
+  "data": {
+    "boundingVolume": {
+      "position": {
+        "y": 0.6
+      }
+    },
+    "boundingVolumeMissileCfg": {
+      "memory": {
+        "Capsule": "1.000000-0.500000",
+        "Cylinder": "1.000000-0.500000"
+      },
+      "position": {
+        "y": 0.6
+      }
+    },
+    "followTarget": true,
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Pink Five-Pointed Star Pendant/haixingzhuangshi.mesh"
+      },
+      "type": "mesh"
+    },
+    "name": {
+      "value": "missile_1d90817e-e67e-4b47-a72d-6d9d3abfa84a"
+    },
+    "rotateSpeed": 8,
+    "startEffect": {
+      "effect": {
+        "asset": "asset/Actor/charactor/charactor_boy/effect/elingqishi_huoyan01.effect"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7c813bcf1b90b6b0adc171243e943780",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

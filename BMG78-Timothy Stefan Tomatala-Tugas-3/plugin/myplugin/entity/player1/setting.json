@@ -1,0 +1,129 @@
+{
+  "_clientScript": [],
+  "_serverScript": [],
+  "aiFixSpeedRate": 2,
+  "attackNpc": false,
+  "autoAttack": false,
+  "autoMove": false,
+  "autoRotateColliderBox": true,
+  "avoidCliff": true,
+  "avoidCliffHight": 5,
+  "backMoveResetOffsetYaw": true,
+  "beAttackedFeedback": {
+    "fromNpc": true,
+    "fromPlayer": true,
+    "hideSmooth": true,
+    "hideTime": 15
+  },
+  "canClick": false,
+  "canHurtMove": true,
+  "canJump": true,
+  "canMove": true,
+  "canPickOnDie": false,
+  "canTurnHead": true,
+  "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 10,
+  "chaseInterval": 10,
+  "checkGroundWhenCollisionMargin": true,
+  "checkPartTouchEvent": true,
+  "clickDistance": 4,
+  "collider": {
+    "height": 1.5,
+    "offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "radius": 0.5,
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "type": "Capsule"
+  },
+  "collision": false,
+  "damage": 0,
+  "damageViewBobbing": [
+    {
+      "count": 2,
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 6
+      }
+    },
+    {
+      "count": 4,
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "deathHideTime": 60,
+  "destroyTime": 20,
+  "disableShadow": true,
+  "disableShadowAtFirstPRV": true,
+  "dropDamageRatio": 0,
+  "dropDamageStart": 1.5,
+  "enableAI": false,
+  "enableBackMovementAction": true,
+  "equipTrays": [
+    1,
+    2
+  ],
+  "eyeHeight": 1.62,
+  "fallAtSwimming": false,
+  "firstPRVActorName": "asset/Actor/charactor/firstPrvActor/firstPrvActor.actor",
+  "firstPRVHandBoneName": "s_wuqi",
+  "followEntityDistanceWhenHasTarget": 10,
+  "followEntityDistanceWhenNotTarget": 5,
+  "FollowWhenCreate": true,
+  "gravity": 0.08,
+  "headPic": "",
+  "hideHolder": false,
+  "hideHp": 0,
+  "hideName": false,
+  "homeSize": 10,
+  "hpBarColor": 4294967551.0,
+  "hpBarHeight": 0.2,
+  "hpBarWidth": 1,
+  "hurtResistantTime": 0,
+  "idleProb": 0,
+  "idleTime": [
+    10,
+    30
+  ],
+  "ignorePlayerSkin": false,
+  "isAIGoHomePos": true,
+  "isPlayer": true,
+  "jumpHeight": 0.6,
+  "jumpSpeed": 0.5,
+  "maxHp": 100,
+  "maxVisualAngle": 360,
+  "meetCliffBackRun": true,
+  "modelType": "System",
+  "moveAcc": 0.2,
+  "moveFactor": 1,
+  "moveSpeed": 0.2,
+  "name": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d",
+  "needCheckTouch": true,
+  "patrolDistance": 5,
+  "pushForce": 10,
+  "randomPlayDeadActions": [
+    "die_front"
+  ],
+  "reachDistance": 6.5,
+  "setFollowWhenCreate": true,
+  "skillInfos": [
+    "myplugin/4eb67129-5037-4a0a-b30b-4d0d2f2378ce"
+  ],
+  "stepHeight": 0.6,
+  "textHeight": 2.3,
+  "touchdownTimeToDie": true,
+  "touchdownTimeToDieTick": 5,
+  "unassailable": 0,
+  "undamageable": 0
+}

@@ -1,0 +1,132 @@
+{
+  "data": {
+    "md5": "84586e7b2eeb93a05a797827b78c57b3",
+    "path": "asset/Actor/Pickaxe Orange Robot/danger.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 14,
+              "FrameColours": {
+                "b": 0,
+                "r": 251
+              },
+              "FrameEnabled": true,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "c8cdac2b-f358-4ca9-8d56-5b63afad44c4"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -0.7058808880954
+                },
+                "UDim_Y": {
+                  "Offect": 25.654123093435
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 357.14696073472
+                },
+                "UDim_Y": {
+                  "Offect": 82.611713605406
+                }
+              },
+              "Text": "Hati-hati~ didepan ada&backslashnplatform berjalan..&backslashnpastikan kamu tidak jatuh ya!",
+              "word_warpped": false
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "id": {
+                "value": "f2bf0497-5fe2-4074-816a-11df32b91ed6"
+              },
+              "Image": {
+                "asset": "asset/Warning-icon-.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": 89.846370496338
+                },
+                "UDim_Y": {
+                  "Offect": -52.205414803008
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 218.97080005713
+                },
+                "UDim_Y": {
+                  "Offect": 213.82817143202
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "0db49a09-289d-4f95-9b36-e931f863aebb"
+          },
+          "Image": {
+            "asset": "asset/Actor/Pickaxe Orange Robot/chat bubble.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 7.4752120500232e-05
+            },
+            "UDim_Y": {
+              "Offect": 5.8624312999633e-06
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 399.85907280443
+            },
+            "UDim_Y": {
+              "Offect": 299.8429033756
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "3a05d901-98f4-4052-af6a-082ac0c4c276"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": 399.08913026438
+        },
+        "UDim_Y": {
+          "Offect": 116.37468246894
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 400.0
+        },
+        "UDim_Y": {
+          "Offect": 352.40299284462
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "84586e7b2eeb93a05a797827b78c57b3",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

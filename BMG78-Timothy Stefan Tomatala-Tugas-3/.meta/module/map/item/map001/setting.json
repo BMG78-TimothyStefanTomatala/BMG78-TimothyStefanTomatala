@@ -1,0 +1,1252 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_back.png"
+        },
+        "bottom": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_bottom.png"
+        },
+        "front": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_front.png"
+        },
+        "left": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_left.png"
+        },
+        "right": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_right.png"
+        },
+        "top": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Light",
+            "id": "8751031781349195777",
+            "ID": 3,
+            "lightBrightness": 0.1,
+            "lightColor": {
+              "b": 103,
+              "g": 103,
+              "r": 103
+            },
+            "lightType": "DirectionalLight",
+            "name": "DirectionalLight",
+            "position": {
+              "y": 48.995002746582
+            },
+            "rotation": {
+              "y": -90
+            },
+            "shadows": {
+              "shadowsDistance": 1,
+              "shadowsType": "soft"
+            }
+          }
+        ],
+        "id": "8751308974136459265",
+        "name": "lighting"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8751031781207195649",
+        "ID": 1,
+        "lightBrightness": 0.3,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "id": "8751308720025731073",
+        "name": "enemy"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c651d096-020f-40d9-9a98-f74f833cda85",
+            "density": 0.6,
+            "friction": 0.46,
+            "id": "8751306570020356097",
+            "massCenter": {
+              "x": -11.047208786011,
+              "y": 5.8047456741333,
+              "z": -12.259895324707
+            },
+            "material": {
+              "texture": "part_ditan.tga"
+            },
+            "name": "land2",
+            "position": {
+              "x": -11.047208786011,
+              "y": 5.8047456741333,
+              "z": -12.259895324707
+            },
+            "restitution": 0.06,
+            "scale": {
+              "x": 8.1066,
+              "y": 1.42986,
+              "z": 11.2316
+            },
+            "size": {
+              "x": 8.1065988540649,
+              "y": 1.4298596382141,
+              "z": 11.231618881226
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "32e86c2b-9dbb-4fec-8c8c-59dcfda4de78",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8751039516671229953",
+            "massCenter": {
+              "x": -11.027997970581,
+              "y": -4.8507485389709,
+              "z": -26.699998855591
+            },
+            "material": {
+              "texture": "part_muban.tga"
+            },
+            "name": "land1",
+            "position": {
+              "x": -11.027997970581,
+              "y": -4.8507485389709,
+              "z": -26.699998855591
+            },
+            "restitution": 0.2,
+            "scale": {
+              "x": 7.12793,
+              "y": 1.61299,
+              "z": 7.0699
+            },
+            "size": {
+              "x": 7.1279320716858,
+              "y": 1.612987279892,
+              "z": 7.0699009895325
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c1f14dbb-be46-427b-89de-40cd067d498d",
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8751326210550284289",
+            "massCenter": {
+              "x": -11.259391784668,
+              "y": 4.4579367637634,
+              "z": -1.374049782753
+            },
+            "material": {
+              "alpha": 0.656,
+              "texture": "part_boli.tga"
+            },
+            "name": "land3",
+            "position": {
+              "x": -11.259391784668,
+              "y": 4.4579367637634,
+              "z": -1.374049782753
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 8.10663,
+              "y": 2.48097,
+              "z": 8.10367
+            },
+            "size": {
+              "x": 8.1066331863403,
+              "y": 2.4809679985046,
+              "z": 8.1036729812622
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "faa8a74c-e763-429f-832a-17c28c94cae3",
+            "density": 3.4,
+            "friction": 0.4,
+            "id": "8751454206189568001",
+            "massCenter": {
+              "x": -11.797792434692,
+              "y": 13.477401733398,
+              "z": 21.598745346069
+            },
+            "material": {
+              "texture": "part_shatu.tga"
+            },
+            "name": "land4",
+            "position": {
+              "x": -11.797792434692,
+              "y": 13.477401733398,
+              "z": 21.598745346069
+            },
+            "restitution": 0.06,
+            "scale": {
+              "x": 13.0704,
+              "y": 17.4469,
+              "z": 17.8714
+            },
+            "size": {
+              "x": 13.070433616638,
+              "y": 17.446859359741,
+              "z": 17.871366500854
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e9e7228c-ad8b-466b-b153-85df3d81a4a9",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8751049441931231233",
+            "massCenter": {
+              "x": -10.735004425049,
+              "y": -4.6981635093689,
+              "z": -34.822525024414
+            },
+            "material": {
+              "texture": "part_muban.tga"
+            },
+            "name": "bridge",
+            "position": {
+              "x": -10.735004425049,
+              "y": -4.6981635093689,
+              "z": -34.822525024414
+            },
+            "restitution": 0.2,
+            "scale": {
+              "x": 2.01096,
+              "y": 0.999987,
+              "z": 9.1998
+            },
+            "size": {
+              "x": 2.010959148407,
+              "y": 0.99998664855957,
+              "z": 9.1998043060303
+            },
+            "useAnchor": true,
+            "useGravity": false
+          }
+        ],
+        "id": "8751308450342256641",
+        "name": "land"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "btsKey": "0ccf4d5c-dad6-4ea0-9d92-ec9989502f57",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8751466592135282689",
+            "massCenter": {
+              "x": -12.073679924011,
+              "y": 25.331600189209,
+              "z": 33.958591461182
+            },
+            "mesh": "asset/Mesh/Star Blue Arch/g2042_build_arch.mesh",
+            "mesh_selector": {
+              "asset": "asset/Mesh/Star Blue Arch/g2042_build_arch.mesh",
+              "selector": "asset/Mesh/Star Blue Arch/g2042_build_arch.mesh"
+            },
+            "name": "g2042_build_arch.mesh",
+            "position": {
+              "x": -12.073679924011,
+              "y": 25.331600189209,
+              "z": 33.958591461182
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 179.99998474121
+            },
+            "scale": {
+              "x": 0.25854,
+              "y": 0.25854,
+              "z": 0.25854
+            },
+            "size": {
+              "x": 9.8742485046387,
+              "y": 5.8691563606262,
+              "z": 0.76858246326447
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "8b05cd56-f0df-4f10-977f-5b96ab132144",
+            "density": 0.6,
+            "friction": 0.46,
+            "id": "8751653873106337793",
+            "massCenter": {
+              "x": -7.0988874435425,
+              "y": 7.2346353530884,
+              "z": -12.347636222839
+            },
+            "material": {
+              "texture": "part_ditan.tga"
+            },
+            "name": "land2",
+            "position": {
+              "x": -7.0988874435425,
+              "y": 7.2346353530884,
+              "z": -12.347636222839
+            },
+            "restitution": 0.06,
+            "scale": {
+              "x": 0.175536,
+              "y": 1.42984,
+              "z": 11.2314
+            },
+            "size": {
+              "x": 0.17553612589836,
+              "y": 1.4298382997513,
+              "z": 11.231426239014
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "afbc20d0-64b3-40a9-919a-50a371dc6784",
+            "density": 0.6,
+            "friction": 0.46,
+            "id": "8751465958179569665",
+            "massCenter": {
+              "x": -12.077670097351,
+              "y": 22.062435150146,
+              "z": 37.615947723389
+            },
+            "material": {
+              "texture": "part_ditan.tga"
+            },
+            "name": "land2",
+            "position": {
+              "x": -12.077670097351,
+              "y": 22.062435150146,
+              "z": 37.615947723389
+            },
+            "restitution": 0.06,
+            "scale": {
+              "x": 9.94145,
+              "y": 0.99996,
+              "z": 9.4796
+            },
+            "size": {
+              "x": 9.9414539337158,
+              "y": 0.99995964765549,
+              "z": 9.4795970916748
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "btsKey": "3a6ccec5-405a-4290-bd4b-519fb2b55fc6",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8751311362661040129",
+            "massCenter": {
+              "x": -10.95307636261,
+              "y": -3.2281081676483,
+              "z": -20.246528625488
+            },
+            "mesh": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh",
+            "mesh_selector": {
+              "asset": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh",
+              "selector": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh"
+            },
+            "name": "g2047_hall_door.mesh",
+            "position": {
+              "x": -10.95307636261,
+              "y": -3.2281081676483,
+              "z": -20.246528625488
+            },
+            "restitution": 0.3,
+            "size": {
+              "x": 3.7691090106964,
+              "y": 0.35689809918404,
+              "z": 3.769104719162
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e1038613-fbdb-46ba-982b-864d503c5819",
+            "density": 0.6,
+            "friction": 0.46,
+            "id": "8751654403575513089",
+            "massCenter": {
+              "x": -15.010326385498,
+              "y": 7.234607219696,
+              "z": -12.264971733093
+            },
+            "material": {
+              "texture": "part_ditan.tga"
+            },
+            "name": "land2",
+            "position": {
+              "x": -15.010326385498,
+              "y": 7.234607219696,
+              "z": -12.264971733093
+            },
+            "restitution": 0.06,
+            "scale": {
+              "x": 0.175536,
+              "y": 1.42984,
+              "z": 11.2314
+            },
+            "size": {
+              "x": 0.17553612589836,
+              "y": 1.4298382997513,
+              "z": 11.231426239014
+            },
+            "useAnchor": true,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_RegionPart",
+            "cfgName": "myplugin/7d8941f3-b9e9-4c76-9bc0-0b9b2ce1d978",
+            "id": "8751468138238279681",
+            "name": "Finish",
+            "position": {
+              "x": -12.10449886322,
+              "y": 23.250072479248,
+              "z": 33.26428604126
+            },
+            "scale": {
+              "x": 9.73491,
+              "y": 0.999993,
+              "z": 0.999986
+            },
+            "size": {
+              "x": 9.7349109649658,
+              "y": 0.99999290704727,
+              "z": 0.99998581409454
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/15398db7-4e0b-47ee-a0d0-67e3ca45f651",
+            "id": "8751525781581185025",
+            "name": "moving land",
+            "position": {
+              "x": -21.607498168945,
+              "y": 5.0378999710083,
+              "z": 6.4795575141907
+            }
+          }
+        ],
+        "id": "8751663975524384769",
+        "name": "land"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8751347021514964993",
+            "layoutFile": {
+              "asset": "asset/Actor/Pickaxe Orange Robot/welcome board.layout"
+            },
+            "position": {
+              "x": -0.5,
+              "y": 2.98
+            },
+            "rangeDistance": 10
+          }
+        ],
+        "config": "myplugin/57699773-81e9-411c-bbf6-25e8dac01919",
+        "id": "8751346504826880001",
+        "name": "npc",
+        "position": {
+          "x": -6.6920003890991,
+          "y": -4.0422897338867,
+          "z": -43.712001800537
+        },
+        "rotation": {
+          "y": 160.99891662598
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/22560a30-338d-4c2e-b33a-5a201e503b8b",
+        "id": "8751463285013626881",
+        "name": "enemy",
+        "position": {
+          "x": -12.106743812561,
+          "y": 22.450897216797,
+          "z": 22.226263046265
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/22560a30-338d-4c2e-b33a-5a201e503b8b",
+        "id": "8751674254542356481",
+        "name": "enemyidle",
+        "position": {
+          "x": -12.106743812561,
+          "y": 6.1608991622925,
+          "z": -1.5947396755219
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8751667135100698625",
+            "layoutFile": {
+              "asset": "asset/Actor/Pickaxe Orange Robot/superjump.layout"
+            },
+            "position": {
+              "x": -0.5,
+              "y": 2.98
+            },
+            "rangeDistance": 10
+          }
+        ],
+        "config": "myplugin/57699773-81e9-411c-bbf6-25e8dac01919",
+        "id": "8751662889024225281",
+        "name": "npc",
+        "position": {
+          "x": -8.1673517227173,
+          "y": -4.0442609786987,
+          "z": -23.703435897827
+        },
+        "rotation": {
+          "y": 127.99899291992
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8751669166617100289",
+            "layoutFile": {
+              "asset": "asset/Actor/Pickaxe Orange Robot/attacktutor.layout"
+            },
+            "position": {
+              "x": -0.5,
+              "y": 2.98
+            },
+            "rangeDistance": 10
+          }
+        ],
+        "config": "myplugin/57699773-81e9-411c-bbf6-25e8dac01919",
+        "id": "8751669166616379393",
+        "name": "npc",
+        "position": {
+          "x": -7.8540773391724,
+          "y": 6.5327415466309,
+          "z": -14.994110107422
+        },
+        "rotation": {
+          "y": 127.99899291992
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8751678209711243265",
+            "layoutFile": {
+              "asset": "asset/Actor/Pickaxe Orange Robot/danger.layout"
+            },
+            "position": {
+              "x": -0.5,
+              "y": 2.88
+            },
+            "rangeDistance": 10
+          }
+        ],
+        "config": "myplugin/57699773-81e9-411c-bbf6-25e8dac01919",
+        "id": "8751678209710489601",
+        "name": "npc",
+        "position": {
+          "x": -7.4499049186707,
+          "y": 5.7787356376648,
+          "z": 2.2048561573029
+        },
+        "rotation": {
+          "y": 127.99899291992
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8751682061679624193",
+            "layoutFile": {
+              "asset": "asset/Actor/Pickaxe Orange Robot/winner.layout"
+            },
+            "position": {
+              "x": -0.5,
+              "y": 3.6
+            },
+            "rangeDistance": 10
+          }
+        ],
+        "config": "myplugin/57699773-81e9-411c-bbf6-25e8dac01919",
+        "id": "8751682061677068289",
+        "name": "npc",
+        "position": {
+          "x": -10.35015296936,
+          "y": 22.513731002808,
+          "z": 37.755283355713
+        },
+        "rotation": {
+          "y": 127.99899291992
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751649815091806209",
+            "name": "fence",
+            "position": {
+              "x": -14.397093772888,
+              "y": -4.0442214012146,
+              "z": -29.205995559692
+            },
+            "rotation": {
+              "y": 87.998435974121
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751649853507239937",
+            "name": "fence",
+            "position": {
+              "x": -14.334434509277,
+              "y": -4.0442481040955,
+              "z": -27.442752838135
+            },
+            "rotation": {
+              "y": 87.998435974121
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751649875414630401",
+            "name": "fence",
+            "position": {
+              "x": -14.289662361145,
+              "y": -4.0442428588867,
+              "z": -25.717353820801
+            },
+            "rotation": {
+              "y": 87.998435974121
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751649923813687297",
+            "name": "fence",
+            "position": {
+              "x": -14.345207214355,
+              "y": -4.0442414283752,
+              "z": -24.055912017822
+            },
+            "rotation": {
+              "y": 87.998435974121
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751650050801926145",
+            "name": "fence",
+            "position": {
+              "x": -7.5845427513123,
+              "y": -4.0439805984497,
+              "z": -29.305461883545
+            },
+            "rotation": {
+              "y": 87.998435974121
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751650088556576769",
+            "name": "fence",
+            "position": {
+              "x": -7.594663143158,
+              "y": -4.0441699028015,
+              "z": -27.579721450806
+            },
+            "rotation": {
+              "y": 87.998435974121
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751650112985202689",
+            "name": "fence",
+            "position": {
+              "x": -7.604302406311,
+              "y": -4.0440058708191,
+              "z": -25.865301132202
+            },
+            "rotation": {
+              "y": 87.998435974121
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751650179486138369",
+            "name": "fence",
+            "position": {
+              "x": -7.5765151977539,
+              "y": -4.0441908836365,
+              "z": -24.069400787354
+            },
+            "rotation": {
+              "y": 87.998435974121
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751650488753340417",
+            "name": "fence",
+            "position": {
+              "x": -9.1481199264526,
+              "y": -4.21462059021,
+              "z": -39.636447906494
+            },
+            "rotation": {
+              "y": 176.99703979492
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751651085642825729",
+            "name": "fence",
+            "position": {
+              "x": -7.5251793861389,
+              "y": -3.3773002624512,
+              "z": -39.497142791748
+            },
+            "rotation": {
+              "y": 176.99703979492
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751651144393359361",
+            "name": "fence",
+            "position": {
+              "x": -12.540219306946,
+              "y": -4.2254548072815,
+              "z": -39.233184814453
+            },
+            "rotation": {
+              "y": 176.99703979492
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751651238262521857",
+            "name": "fence",
+            "position": {
+              "x": -13.95289516449,
+              "y": -3.5481491088867,
+              "z": -38.862003326416
+            },
+            "rotation": {
+              "y": 176.99703979492
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751651430967181313",
+            "name": "fence",
+            "position": {
+              "x": -12.865295410156,
+              "y": -4.0442533493042,
+              "z": -30.079263687134
+            },
+            "rotation": {
+              "y": 176.99703979492
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751651347723239425",
+            "name": "fence",
+            "position": {
+              "x": -8.905065536499,
+              "y": -4.0442538261414,
+              "z": -30.117624282837
+            },
+            "rotation": {
+              "y": 176.99703979492
+            }
+          }
+        ],
+        "id": "8751653069530382337",
+        "name": "pager land 0"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Folder",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751656329809428481",
+            "name": "fence",
+            "position": {
+              "x": -17.248188018799,
+              "y": 22.20085144043,
+              "z": 12.989948272705
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751656488514961409",
+            "name": "fence",
+            "position": {
+              "x": -15.253869056702,
+              "y": 22.202924728394,
+              "z": 12.896503448486
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751656538549420033",
+            "name": "fence",
+            "position": {
+              "x": -13.482748985291,
+              "y": 22.200853347778,
+              "z": 12.869311332703
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751656587474780161",
+            "name": "fence",
+            "position": {
+              "x": -11.693906784058,
+              "y": 22.200857162476,
+              "z": 12.893005371094
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751656629297414145",
+            "name": "fence",
+            "position": {
+              "x": -9.9086685180664,
+              "y": 22.200857162476,
+              "z": 12.854254722595
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751656748694994945",
+            "name": "fence",
+            "position": {
+              "x": -6.192741394043,
+              "y": 22.208150863647,
+              "z": 12.841589927673
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751661897428434945",
+            "name": "fence",
+            "position": {
+              "x": -5.4043478965759,
+              "y": 22.208148956299,
+              "z": 28.792718887329
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751661801018081281",
+            "name": "fence",
+            "position": {
+              "x": -5.4043278694153,
+              "y": 22.208148956299,
+              "z": 26.965711593628
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751659781131665409",
+            "name": "fence",
+            "position": {
+              "x": -18.002958297729,
+              "y": 22.203001022339,
+              "z": 28.971927642822
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751659781124636673",
+            "name": "fence",
+            "position": {
+              "x": -18.096406936646,
+              "y": 22.200929641724,
+              "z": 26.977603912354
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751659610675560449",
+            "name": "fence",
+            "position": {
+              "x": -18.143321990967,
+              "y": 22.20308303833,
+              "z": 16.068326950073
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751659610674102273",
+            "name": "fence",
+            "position": {
+              "x": -18.116138458252,
+              "y": 22.201011657715,
+              "z": 17.83945274353
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751659610672627713",
+            "name": "fence",
+            "position": {
+              "x": -18.137683868408,
+              "y": 22.201015472412,
+              "z": 19.626195907593
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751659610671185921",
+            "name": "fence",
+            "position": {
+              "x": -18.08842086792,
+              "y": 22.208309173584,
+              "z": 25.129474639893
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751659610669711361",
+            "name": "fence",
+            "position": {
+              "x": -18.236770629883,
+              "y": 22.201011657715,
+              "z": 14.073999404907
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751659610668236801",
+            "name": "fence",
+            "position": {
+              "x": -18.101078033447,
+              "y": 22.201015472412,
+              "z": 21.413534164429
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751659610666582017",
+            "name": "fence",
+            "position": {
+              "x": -18.063102722168,
+              "y": 22.201858520508,
+              "z": 23.281894683838
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751658238330568705",
+            "name": "fence",
+            "position": {
+              "x": -5.45356798172,
+              "y": 22.200855255127,
+              "z": 19.654445648193
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751658238329077761",
+            "name": "fence",
+            "position": {
+              "x": -5.416962146759,
+              "y": 22.200855255127,
+              "z": 21.441781997681
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751658238327603201",
+            "name": "fence",
+            "position": {
+              "x": -5.3789863586426,
+              "y": 22.201698303223,
+              "z": 23.310132980347
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751658238326145025",
+            "name": "fence",
+            "position": {
+              "x": -5.5526566505432,
+              "y": 22.200849533081,
+              "z": 14.102255821228
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751658238324654081",
+            "name": "fence",
+            "position": {
+              "x": -5.404305934906,
+              "y": 22.208148956299,
+              "z": 25.157711029053
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751658238323195905",
+            "name": "fence",
+            "position": {
+              "x": -5.4320240020752,
+              "y": 22.20085144043,
+              "z": 17.867706298828
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751658238321688577",
+            "name": "fence",
+            "position": {
+              "x": -5.4592080116272,
+              "y": 22.202922821045,
+              "z": 16.09658241272
+            },
+            "rotation": {
+              "y": 89.999382019043
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Entity",
+            "config": "myplugin/74f44408-8b63-4551-85f2-fb29916725c7",
+            "id": "8751656685293289473",
+            "name": "fence",
+            "position": {
+              "x": -8.0403299331665,
+              "y": 22.201700210571,
+              "z": 12.816279411316
+            }
+          }
+        ],
+        "id": "8751657460168032257",
+        "name": "pager land 4"
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "btsKey": "9aa7836a-1fda-4831-862d-da0305d38d9d",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8751689472947617793",
+        "massCenter": {
+          "x": -12.170875549316,
+          "y": 26.347511291504,
+          "z": 41.735263824463
+        },
+        "mesh": "asset/Mesh/White And Gold Arch/g2038_race_gate.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/White And Gold Arch/g2038_race_gate.mesh",
+          "selector": "asset/Mesh/White And Gold Arch/g2038_race_gate.mesh"
+        },
+        "name": "g2038_race_gate.mesh",
+        "position": {
+          "x": -12.170875549316,
+          "y": 26.347511291504,
+          "z": 41.735263824463
+        },
+        "restitution": 0.3,
+        "size": {
+          "x": 9.6734285354614,
+          "y": 9.0266523361206,
+          "z": 2.5452225208282
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/53106838-df51-4bc6-a93d-1ce0299620ba",
+        "id": "8751690141484957697",
+        "position": {
+          "x": -12.13002204895,
+          "y": 23.299396514893,
+          "z": 42.470523834229
+        },
+        "scale": {
+          "x": 6.25596,
+          "y": 0.999993,
+          "z": 0.999986
+        },
+        "size": {
+          "x": 6.2559576034546,
+          "y": 0.9999932050705,
+          "z": 0.99998641014099
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/e0f36323-ed8b-4e91-b83c-a084843760a8",
+        "id": "8751709823357681665",
+        "position": {
+          "x": -10.78339099884,
+          "y": -19.95288848877,
+          "z": -16.124027252197
+        },
+        "scale": {
+          "x": 68.3339,
+          "y": 0.99997,
+          "z": 236.223
+        },
+        "size": {
+          "x": 68.333862304688,
+          "y": 0.99996960163116,
+          "z": 236.22338867188
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "down": -300,
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "e3f33a1e76c38cd3f95141bd1090b56c"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "data": {
+    "md5": "802f79916c20cd06e7622762a1f13f7c",
+    "path": "asset/bridgemove.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticText",
+          "Font_size": 17,
+          "id": {
+            "value": "b3b8aed3-83b9-47b9-9ea6-0dfd02973b1e"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 5.0549598999972e-06
+            },
+            "UDim_Y": {
+              "Offect": 252.32628691197
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 399.54257607461
+            },
+            "UDim_Y": {
+              "Offect": 43.166138410569
+            }
+          },
+          "Text": "Hati-hati Platform 3 dapat bergerak!"
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "id": {
+            "value": "1be1b597-43a3-4411-81fb-3326901973ab"
+          },
+          "Image": {
+            "asset": "asset/Warning-icon-.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 64.70248126984
+            },
+            "UDim_Y": {
+              "Offect": -3.0994414998986e-06
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 270.45575313375
+            },
+            "UDim_Y": {
+              "Offect": 262.86366534225
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "b862a452-9c48-4fe1-9024-238df2f28628"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": -1.0874845344416
+        },
+        "UDim_Y": {
+          "Offect": -103.3232502681
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "802f79916c20cd06e7622762a1f13f7c",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

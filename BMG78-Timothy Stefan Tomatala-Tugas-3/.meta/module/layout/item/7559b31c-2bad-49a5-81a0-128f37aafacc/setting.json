@@ -1,0 +1,523 @@
+{
+  "data": {
+    "md5": "c0c1b5ba5ed6e185cc622532d7af556c",
+    "path": "gui/layout_presets/appMainRole.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "children": [
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "a0d60c49-8b4f-4f35-b16f-752b6b210c51"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/role_Panel.imageset",
+                    "imageset_key": "bg",
+                    "selector": "asset/Texture/Gui/imagesets/role_Panel.imageset"
+                  },
+                  "lock": true,
+                  "name": "BgBack",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "2bbe76d3-2b11-4670-82e8-63bb56a6c9b1"
+                  },
+                  "Image": {
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "lock": true,
+                  "name": "BgBottom",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 10
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "f4ec93b5-ed58-4e8a-a9ce-dbbdb31033a5"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/role_Panel.imageset",
+                    "imageset_key": "cut_off",
+                    "selector": "asset/Texture/Gui/imagesets/role_Panel.imageset"
+                  },
+                  "lock": true,
+                  "name": "Cut",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 5
+                    },
+                    "UDim_Y": {
+                      "Offect": 459
+                    }
+                  }
+                }
+              ],
+              "ClippedByParent": true,
+              "id": {
+                "value": "755e6ef1-ada2-47ee-83e0-823f9e10ae3b"
+              },
+              "lock": true,
+              "name": "BG",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ScrollableView",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "BackGroundImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "GridView",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "93ffc3cb-5d2c-4d0f-b6ba-b664c2719f5a"
+                  },
+                  "lock": true,
+                  "name": "GridLayout",
+                  "size": {
+                    "UDim_X": {
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Scale": 1
+                    }
+                  }
+                }
+              ],
+              "ClippedByParent": true,
+              "ForceHorzScrollbar": false,
+              "ForceVertScrollbar": false,
+              "id": {
+                "value": "9dd44f3b-883a-4394-8993-63f289aa5dc4"
+              },
+              "lock": true,
+              "name": "LeftScrollableView",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.49
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.97
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ScrollableView",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "BackGroundImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "GridView",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "fda72094-832d-4243-9a53-1398b2892a5d"
+                  },
+                  "lock": true,
+                  "name": "GridLayout",
+                  "size": {
+                    "UDim_X": {
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Scale": 1
+                    }
+                  }
+                }
+              ],
+              "ClippedByParent": true,
+              "ForceHorzScrollbar": false,
+              "ForceVertScrollbar": false,
+              "id": {
+                "value": "d9763046-303d-46df-814b-5c34a1df2148"
+              },
+              "lock": true,
+              "name": "RightScrollableView",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.49
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.97
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "ClippedByParent": true,
+              "id": {
+                "value": "fe0057be-d93c-47fc-abc2-f2f8d71bff52"
+              },
+              "lock": true,
+              "name": "LeftLayout",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.49
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.97
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "ClippedByParent": true,
+              "id": {
+                "value": "da567c1d-7e0b-404c-88cf-0df1510e73b2"
+              },
+              "lock": true,
+              "name": "RightLayout",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.49
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.97
+                }
+              }
+            }
+          ],
+          "ClippedByParent": true,
+          "id": {
+            "value": "27d775df-fcd7-470a-a32f-3458ff0f7127"
+          },
+          "lock": true,
+          "name": "Main",
+          "pos": {
+            "UDim_X": {
+              "Offect": 206
+            },
+            "UDim_Y": {
+              "Offect": 92
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 1000
+            },
+            "UDim_Y": {
+              "Offect": 537.8
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "ClippedByParent": true,
+              "id": {
+                "value": "8977efeb-0525-4daf-8a5f-f081eaabbbf2"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/role_Panel.imageset",
+                "imageset_key": "tab_left_top_bg",
+                "selector": "asset/Texture/Gui/imagesets/role_Panel.imageset"
+              },
+              "lock": true,
+              "name": "TopBg",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 46
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ScrollableView",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "BackGroundImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "GridView",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "4f57a152-d6f0-4b38-8c5b-2232e531a8db"
+                  },
+                  "lock": true,
+                  "name": "GridLayout",
+                  "size": {
+                    "UDim_X": {
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Scale": 1
+                    }
+                  }
+                }
+              ],
+              "ClippedByParent": true,
+              "ForceHorzScrollbar": false,
+              "ForceVertScrollbar": false,
+              "id": {
+                "value": "68f11f4a-2f64-4c94-b655-906c4f766154"
+              },
+              "lock": true,
+              "name": "RoleScrollableView",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": -46,
+                  "Scale": 1
+                }
+              }
+            }
+          ],
+          "ClippedByParent": true,
+          "id": {
+            "value": "a80fdd55-e8d8-413a-8a89-9456ab567807"
+          },
+          "lock": true,
+          "name": "LeftLayout",
+          "pos": {
+            "UDim_X": {
+              "Offect": 53
+            },
+            "UDim_Y": {
+              "Offect": 93
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 154
+            },
+            "UDim_Y": {
+              "Offect": 537
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "ClippedByParent": true,
+              "id": {
+                "value": "b0b79ad4-6117-47c6-bf0c-c471326294c5"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/role_Panel.imageset",
+                "imageset_key": "bg_title",
+                "selector": "asset/Texture/Gui/imagesets/role_Panel.imageset"
+              },
+              "lock": true,
+              "name": "BG",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "ClippedByParent": true,
+              "id": {
+                "value": "df26c579-96b9-492d-b278-83cf9af807b3"
+              },
+              "lock": true,
+              "size": {
+                "UDim_X": {
+                  "Offect": -50,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "Text",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned",
+              "word_warpped": false
+            }
+          ],
+          "ClippedByParent": true,
+          "id": {
+            "value": "87497dd8-d84f-4287-92bb-f2a4aac629e3"
+          },
+          "lock": true,
+          "name": "TopLayout",
+          "pos": {
+            "UDim_X": {
+              "Offect": 206
+            },
+            "UDim_Y": {
+              "Offect": 53
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 298
+            },
+            "UDim_Y": {
+              "Offect": 40
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "ClippedByParent": true,
+          "DisabledImage": {
+            "asset": "asset/Texture/Gui/imagesets/role_Panel.imageset",
+            "imageset_key": "icon_close",
+            "selector": "asset/Texture/Gui/imagesets/role_Panel.imageset"
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/Gui/imagesets/role_Panel.imageset",
+            "imageset_key": "icon_close",
+            "selector": "asset/Texture/Gui/imagesets/role_Panel.imageset"
+          },
+          "id": {
+            "value": "ede4a823-e128-4bf7-a770-3d93ce458b01"
+          },
+          "lock": true,
+          "name": "Close",
+          "NormalImage": {
+            "asset": "asset/Texture/Gui/imagesets/role_Panel.imageset",
+            "imageset_key": "icon_close",
+            "selector": "asset/Texture/Gui/imagesets/role_Panel.imageset"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 1152
+            },
+            "UDim_Y": {
+              "Offect": 39
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/Gui/imagesets/role_Panel.imageset",
+            "imageset_key": "icon_close",
+            "selector": "asset/Texture/Gui/imagesets/role_Panel.imageset"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 54
+            },
+            "UDim_Y": {
+              "Offect": 54
+            }
+          },
+          "Text": ""
+        }
+      ],
+      "ClippedByParent": true,
+      "id": {
+        "value": "4a4994a6-d800-449a-9a5b-a82a2af6d272"
+      },
+      "lock": true,
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "c0c1b5ba5ed6e185cc622532d7af556c",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

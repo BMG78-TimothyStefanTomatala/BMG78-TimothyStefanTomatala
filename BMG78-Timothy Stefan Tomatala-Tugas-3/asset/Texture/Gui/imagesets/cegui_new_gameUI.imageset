@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" imagefile="cegui_new_gameUI.png" name="cegui_new_gameUI" nativeHorzRes="512" nativeVertRes="1024" version="2">
+	<Image height="36" name="icon_recharge_btn" width="38" xPos="242" yPos="5"/>
+	<Image height="48" name="icon_invite_friends" width="49" xPos="164" yPos="164"/>
+	<Image height="48" name="icon_onlineGame" width="48" xPos="264" yPos="58"/>
+	<Image height="258" name="icon_tipBody" width="410" xPos="5" yPos="358" type="NineGridImage" stretch="32 32 32 32"/>
+	<Image height="80" name="icon_selected" width="80" xPos="155" yPos="223"/>
+	<Image height="48" name="icon_tip_cancel_act" width="17" xPos="26" yPos="5" type="NineGridImage" stretch="8 0 8 0"/>
+	<Image height="36" name="icon_coin_bg" width="20" xPos="114" yPos="5" type="NineGridImage" stretch="8 0 8 0"/>
+	<Image height="48" name="icon_tip_green_nor" width="17" xPos="92" yPos="5" type="NineGridImage" stretch="8 0 8 0"/>
+	<Image height="48" name="icon_setting" width="48" xPos="317" yPos="58"/>
+	<Image height="48" name="icon_team_blue_me" width="48" xPos="58" yPos="111"/>
+	<Image height="48" name="icon_shop" width="48" xPos="370" yPos="58"/>
+	<Image height="42" name="icon_diamond" width="42" xPos="375" yPos="5"/>
+	<Image height="48" name="icon_tip_cancel_nro" width="17" xPos="48" yPos="5" type="NineGridImage" stretch="8 0 8 0"/>
+	<Image height="48" name="icon_team_green_bg" width="70" xPos="352" yPos="164"/>
+	<Image height="48" name="icon_team_blue" width="48" xPos="5" yPos="111"/>
+	<Image height="48" name="icon_onlineRoom_bg" width="32" xPos="205" yPos="5" type="NineGridImage" stretch="8 0 8 0"/>
+	<Image height="48" name="icon_team_red_bg" width="70" xPos="5" yPos="223"/>
+	<Image height="48" name="icon_team_red_me" width="48" xPos="270" yPos="111"/>
+	<Image height="40" name="icon_sendMsg_nor" width="40" xPos="330" yPos="5"/>
+	<Image height="48" name="icon_uploadGame" width="48" xPos="111" yPos="164"/>
+	<Image height="48" name="icon_team_yellow_bg" width="70" xPos="80" yPos="223"/>
+	<Image height="48" name="icon_bei_view" width="48" xPos="105" yPos="58"/>
+	<Image height="48" name="icon_backEdit" width="48" xPos="52" yPos="58"/>
+	<Image height="130" name="icon_onlineRoom_TipHead" width="112" xPos="240" yPos="223"/>
+	<Image height="26" name="icon_chenghao" width="26" xPos="139" yPos="5"/>
+	<Image height="48" name="icon_team_green" width="48" xPos="111" yPos="111"/>
+	<Image height="48" name="icon_team_yellow_me" width="48" xPos="5" yPos="164"/>
+	<Image height="54" name="icon_tip_close" width="54" xPos="218" yPos="164"/>
+	<Image height="48" name="icon_onlineRoom_TipBg" width="30" xPos="170" yPos="5" type="NineGridImage" stretch="10 10 10 10"/>
+	<Image height="48" name="icon_tip_green_act" width="17" xPos="70" yPos="5" type="NineGridImage" stretch="8 0 8 0"/>
+	<Image height="48" name="icon_first_view" width="48" xPos="211" yPos="58"/>
+	<Image height="48" name="icon_thrid_view" width="48" xPos="58" yPos="164"/>
+	<Image height="48" name="icon_team_yellow" width="48" xPos="323" yPos="111"/>
+	<Image height="48" name="icon_team_blue_bg" width="70" xPos="277" yPos="164"/>
+	<Image height="56" name="icon_topTip_bg" width="410" xPos="5" yPos="621" type="NineGridImage" stretch="10 0 10 0"/>
+	<Image height="16" name="icon_team_die" width="16" xPos="5" yPos="5"/>
+	<Image height="48" name="icon_chat" width="48" xPos="158" yPos="58"/>
+	<Image height="48" name="toolbar_Countdown" width="42" xPos="5" yPos="58" type="NineGridImage" stretch="30 0 10 0"/>
+	<Image height="40" name="icon_sendMsg_act" width="40" xPos="285" yPos="5"/>
+	<Image height="48" name="icon_team_green_me" width="48" xPos="164" yPos="111"/>
+	<Image height="48" name="icon_team_red" width="48" xPos="217" yPos="111"/>
+</Imageset>

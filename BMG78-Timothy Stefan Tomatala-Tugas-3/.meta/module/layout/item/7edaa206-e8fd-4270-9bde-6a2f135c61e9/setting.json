@@ -1,0 +1,99 @@
+{
+  "data": {
+    "md5": "05309dfe94ee746ea61a67e149deb119",
+    "path": "asset/Actor/Pickaxe Orange Robot/welcome board.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 14,
+              "FrameColours": {
+                "b": 0,
+                "r": 251
+              },
+              "FrameEnabled": true,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "ab5ddfb8-4bed-4753-9aec-b724bee77e0f"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -0.7246329873796
+                },
+                "UDim_Y": {
+                  "Offect": 13.051358222964
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 357.14696073471
+                },
+                "UDim_Y": {
+                  "Offect": 200.6598871522
+                }
+              },
+              "Text": "Halo! selamat datang di world&backslashnTugas 3 Blockman Go by&backslashnBMG78 - Timothy Stefan Tomatala!&backslashnApakah kamu sudah siap?&backslashnjika sudah, silahkan masuk&backslashndan lakukan penjelajahan!",
+              "word_warpped": false
+            }
+          ],
+          "id": {
+            "value": "9c72f236-d8ed-4dd4-a97c-d0ef3277e424"
+          },
+          "Image": {
+            "asset": "asset/Actor/Pickaxe Orange Robot/chat bubble.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 7.4752120500232e-05
+            },
+            "UDim_Y": {
+              "Offect": 5.8624312999633e-06
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 399.85907280443
+            },
+            "UDim_Y": {
+              "Offect": 299.8429033756
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "3b6a5e55-8b91-40af-8f97-678bce1190f1"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": 399.08913026438
+        },
+        "UDim_Y": {
+          "Offect": 143.56501607371
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "05309dfe94ee746ea61a67e149deb119",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

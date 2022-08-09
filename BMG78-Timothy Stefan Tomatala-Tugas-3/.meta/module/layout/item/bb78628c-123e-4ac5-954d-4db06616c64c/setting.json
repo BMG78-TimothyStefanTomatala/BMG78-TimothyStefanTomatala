@@ -1,0 +1,107 @@
+{
+  "data": {
+    "md5": "936f387d9bb00e9392fce80d869d25e9",
+    "path": "asset/Actor/Pickaxe Orange Robot/superjump.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 14,
+              "FrameColours": {
+                "b": 0,
+                "r": 251
+              },
+              "FrameEnabled": true,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "ff50e286-582a-40a4-bf9e-cce8f87ddbf7"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -0.7058146330164
+                },
+                "UDim_Y": {
+                  "Offect": -0.4485908490981
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 357.14696073472
+                },
+                "UDim_Y": {
+                  "Offect": 200.6598871522
+                }
+              },
+              "Text": "Hello Adventures!&backslashnberikut ada satu fitur tambahan&backslashnyang saya buat di Tugas 3&backslashnyaitu super jump!&backslashnkamu tinggal masuk ke&backslashntrampolin biru dan kamu akan&backslashnbisa melompat lebih tinggi!",
+              "word_warpped": false
+            }
+          ],
+          "id": {
+            "value": "f89e9b12-c6a5-485d-b83e-191fe5694b12"
+          },
+          "Image": {
+            "asset": "asset/Actor/Pickaxe Orange Robot/chat bubble.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 7.4752120500232e-05
+            },
+            "UDim_Y": {
+              "Offect": 5.8624312999633e-06
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 399.85907280443
+            },
+            "UDim_Y": {
+              "Offect": 299.8429033756
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "356589a2-3ea3-40a6-b1e9-19f0ae016afd"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": 399.08913026438
+        },
+        "UDim_Y": {
+          "Offect": 143.56501607371
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 400.0
+        },
+        "UDim_Y": {
+          "Offect": 300.00000000001
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "936f387d9bb00e9392fce80d869d25e9",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

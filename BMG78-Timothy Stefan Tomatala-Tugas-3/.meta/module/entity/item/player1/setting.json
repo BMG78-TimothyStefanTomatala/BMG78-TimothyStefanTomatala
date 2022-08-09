@@ -1,0 +1,126 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/Pickaxe Orange Robot/g2034_robotskin_default.actor"
+      },
+      "girlactor": {
+        "asset": "asset/Actor/Pickaxe Orange Robot/g2034_robotskin_default.actor"
+      }
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_home": {
+      "homeSize": 5
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "destroyTime": {
+      "value": 20
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "hideHp": false,
+    "isPlayer": true,
+    "maxHp": 100,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "skill": [
+      "",
+      "myplugin/4eb67129-5037-4a0a-b30b-4d0d2f2378ce"
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KickOutPlayer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "9c6ea8eb-7c72-45eb-b443-abe8ad0e428f"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e0191159-21e4-4562-8db3-76b7d8da200f"
+              },
+              "pos": {
+                "x": 713,
+                "y": 333
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "9c6ea8eb-7c72-45eb-b443-abe8ad0e428f"
+              },
+              "pos": {
+                "x": 1130,
+                "y": 335
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "5152a2bf-3e55-4eae-b97d-70bbafed7774"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "e0191159-21e4-4562-8db3-76b7d8da200f"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "25308af2-c288-4554-afe2-92687b07c63c"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a0d1b3bb6023305ea046f2d3c87036e4",
+      "triggers.bts": "6c7843478dd742ee899be0b107d42881"
+    },
+    "VERSION": "0.22"
+  }
+}

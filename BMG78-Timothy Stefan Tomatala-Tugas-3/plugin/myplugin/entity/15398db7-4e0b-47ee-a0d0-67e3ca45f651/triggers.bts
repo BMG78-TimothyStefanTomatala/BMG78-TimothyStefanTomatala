@@ -1,0 +1,35 @@
+ENTITY_ENTER {
+	StartTimer2(interval = 20, time = 1, timer = "") {
+		ReviveEntity(entity = $obj1, map = $map, pos = { x = -21.607, y = 5.038, z = 6.48 })
+	}
+}
+
+ENTITY_REBIRTH {
+	StartTimer2(interval = 3, time = 100, timer = "") {
+		SetEntityPosition(
+			entity = $obj1,
+			map = "map001",
+			pos = ComputeV3(op = "add", p1 = GetEntityPosition(entity = $obj1), p2 = { x = 0.12, y = 0, z = 0 }),
+			rp = 0,
+			ry = 0
+		)
+	}
+	StartTimer2(interval = 300, time = 1, timer = "") {
+		StartTimer2(interval = 3, time = 100, timer = "") {
+			SetEntityPosition(
+				entity = $obj1,
+				map = "map001",
+				pos = ComputeV3(op = "add", p1 = GetEntityPosition(entity = $obj1), p2 = { x = -0.12, y = 0, z = 0 }),
+				rp = 0,
+				ry = 0
+			)
+		}
+	}
+	StartTimer2(interval = 598, time = 1, timer = "") {
+		ReviveEntity(entity = $obj1, map = $map, pos = { x = -21.607, y = 5.038, z = 6.48 })
+	}
+}
+
+ENTITY_TOUCH_ALL {
+	AddEntityBuff(buffTime = 20, cfg = "myplugin/28ef0f89-c683-4ca6-af21-124dce7e1016", entity = $obj2)
+}

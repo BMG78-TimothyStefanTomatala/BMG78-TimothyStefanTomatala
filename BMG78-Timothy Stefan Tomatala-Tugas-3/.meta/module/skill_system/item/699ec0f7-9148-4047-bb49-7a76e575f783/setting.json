@@ -1,0 +1,48 @@
+{
+  "data": {
+    "attackBound": {
+      "position": {
+        "z": -0.5
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      }
+    },
+    "attackBoundSkillSystemCfg": {
+      "position": {
+        "z": -0.5
+      },
+      "size": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      }
+    },
+    "attackTarget": {
+      "targetType": "hitPlayer"
+    },
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Actor/charactor/charactor_boy/effect/06_headdress_widget.effect"
+      }
+    },
+    "cdTime": {
+      "value": 120
+    },
+    "damage": 10,
+    "enableCdTip": true,
+    "hurtDistance": 0.5,
+    "name": {
+      "value": "2ac24fef-0e07-4dfb-9572-e089a41d3aea"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "df89d90d8694e658cf9302630e5eacef",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

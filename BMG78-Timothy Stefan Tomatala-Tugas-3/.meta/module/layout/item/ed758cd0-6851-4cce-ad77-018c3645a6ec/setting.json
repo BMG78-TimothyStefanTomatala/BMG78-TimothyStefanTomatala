@@ -1,0 +1,991 @@
+{
+  "data": {
+    "md5": "88de9b80aa87378b043b1ed9967446dd",
+    "path": "gui/layout_presets/toolbar.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "65123b81-1cc1-4f66-b679-1d119a979a14"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                "imageset_key": "icon_setting",
+                "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+              },
+              "lock": true,
+              "name": "settingBtn",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 10
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "f211d596-4726-4a19-b790-2cf45e2bf7ea"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                "imageset_key": "icon_chat",
+                "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+              },
+              "lock": true,
+              "name": "chatBtn",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 68
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "9afd6f53-a43b-4bbc-9c69-8e70560bf947"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                "imageset_key": "icon_thrid_view",
+                "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+              },
+              "lock": true,
+              "name": "viewBtn",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 126
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "b5cf677d-fb6d-492e-bdd6-f2df1536b223"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/friend.imageset",
+                "imageset_key": "icon_friends",
+                "selector": "asset/Texture/Gui/imagesets/friend.imageset"
+              },
+              "lock": true,
+              "name": "playerListBtn",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 186
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "909f088a-a837-40e4-8b33-3c1de0edee6e"
+          },
+          "lock": true,
+          "name": "SystemBtnLayout",
+          "pos": {
+            "UDim_X": {
+              "Offect": 10
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 184
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "Alpha": 0.5,
+              "BackgroundColours": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BackgroundEnabled": true,
+              "id": {
+                "value": "b8311a36-7a3f-49e5-89ae-6ce115feb591"
+              },
+              "Image": {
+                "asset": "",
+                "selector": ""
+              },
+              "lock": true,
+              "name": "teamBg",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "8633842a-72e5-4c80-967b-17aea6ecc3ea"
+          },
+          "lock": true,
+          "name": "TeamLayout",
+          "pos": {
+            "UDim_X": {
+              "Offect": 240
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 320
+            },
+            "UDim_Y": {
+              "Offect": 48
+            }
+          },
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "id": {
+                "value": "6d2a6f83-450b-4e69-ab2a-bda3d6b9286f"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                "imageset_key": "toolbar_Countdown",
+                "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+              },
+              "lock": true,
+              "name": "countDownBg",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "BorderWidth": 1,
+              "Font_size": 16,
+              "id": {
+                "value": "ddc4dab4-7ac4-40e8-8573-e3aef3ac599e"
+              },
+              "lock": true,
+              "name": "countDownText",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 40
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": -45.79,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": -8.08,
+                  "Scale": 1
+                }
+              },
+              "Text": "18:50",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen",
+              "word_warpped": false
+            }
+          ],
+          "id": {
+            "value": "3201fc80-3ba8-4feb-b6cf-27bc1f7651cd"
+          },
+          "lock": true,
+          "name": "CountDownLayout",
+          "pos": {
+            "UDim_X": {
+              "Offect": -20
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 130
+            },
+            "UDim_Y": {
+              "Offect": 48
+            }
+          },
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "efdfdeca-cc80-4032-aa08-8c56de8d3275"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                "imageset_key": "icon_coin_bg",
+                "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+              },
+              "lock": true,
+              "name": "coinLayoutBg",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "ec0e4207-a690-4edc-bf9b-0dcd9812b099"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                "imageset_key": "icon_diamond",
+                "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+              },
+              "lock": true,
+              "name": "coinIcon",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 8
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 32
+                },
+                "UDim_Y": {
+                  "Offect": 32
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "Font_size": 14,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "7f3106c5-e2d7-41c7-ac47-e01681dcb6de"
+              },
+              "lock": true,
+              "name": "coinText",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                },
+                "UDim_Y": {
+                  "Offect": 35
+                }
+              },
+              "Text": "300000",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "word_warpped": false
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "9c1d12c6-f9d0-4325-83b4-ece386529087"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                "imageset_key": "icon_recharge_btn",
+                "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+              },
+              "lock": true,
+              "name": "buyBtn",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 2
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 38
+                },
+                "UDim_Y": {
+                  "Offect": 38
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "79275732-37cd-4c06-a777-27f53cc8a02f"
+          },
+          "lock": true,
+          "name": "BuyBtnLayout",
+          "pos": {
+            "UDim_X": {
+              "Offect": -20
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 170
+            },
+            "UDim_Y": {
+              "Offect": 38
+            }
+          },
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "id": {
+                "value": "befee88f-99e7-44c5-8202-0c2a75ad33b5"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                "imageset_key": "icon_backEdit",
+                "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+              },
+              "lock": true,
+              "name": "backEditBtn",
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "id": {
+                "value": "527d3734-ee01-4418-a6ce-f9d28f37b645"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                "imageset_key": "icon_onlineGame",
+                "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+              },
+              "lock": true,
+              "name": "onlineGameBtn",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 60
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "id": {
+                "value": "e8df9609-56c5-40cb-a731-72767b7a8390"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                "imageset_key": "icon_uploadGame",
+                "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+              },
+              "lock": true,
+              "name": "uploadGameBtn",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 121.95
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48.0
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "ce6818d0-6624-4125-a3d1-1cf30db366a3"
+          },
+          "lock": true,
+          "name": "EditGameLayout",
+          "pos": {
+            "UDim_X": {
+              "Offect": 20
+            },
+            "UDim_Y": {
+              "Offect": 90
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 50
+            },
+            "UDim_Y": {
+              "Offect": 170
+            }
+          },
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "children": [
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "id": {
+                    "value": "1a9c6cd0-403b-4bb1-84de-0b59f5d380ee"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                    "imageset_key": "icon_onlineRoom_bg",
+                    "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+                  },
+                  "lock": true,
+                  "name": "OnlineRoomLayout_Bg",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 5
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": -5,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 48
+                    }
+                  },
+                  "StaticImageStretch": {
+                    "bottom_left": 8,
+                    "top_left": 8
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "id": {
+                    "value": "4f567122-4607-4c62-9ecc-3524e9ea856b"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                    "imageset_key": "icon_invite_friends",
+                    "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+                  },
+                  "lock": true,
+                  "name": "OnlineRoomLayout_Btn",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 48
+                    },
+                    "UDim_Y": {
+                      "Offect": 48
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "id": {
+                    "value": "37e27b28-3649-4eab-9206-661332476ef9"
+                  },
+                  "lock": true,
+                  "name": "OnlineRoomLayout_tipText",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 52
+                    },
+                    "UDim_Y": {
+                      "Offect": 4
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": -52,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 22
+                    }
+                  },
+                  "Text": "房间号",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "word_warpped": false
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 14,
+                  "id": {
+                    "value": "e7b80cf9-76c4-4725-b0b3-9905ab82b050"
+                  },
+                  "lock": true,
+                  "name": "OnlineRoomLayout_roomId",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 52
+                    },
+                    "UDim_Y": {
+                      "Offect": 21
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": -52,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 29
+                    }
+                  },
+                  "Text": "21023940",
+                  "TextColours": {
+                    "b": 144,
+                    "g": 180,
+                    "r": 219
+                  },
+                  "word_warpped": false
+                }
+              ],
+              "id": {
+                "value": "e6a72412-dc71-41f3-a013-b90101c72f95"
+              },
+              "lock": true,
+              "name": "OnlineRoomLayout",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "id": {
+                "value": "7fa28bba-f6b4-482a-bcbf-da4bf485105a"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                "imageset_key": "icon_uploadGame",
+                "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+              },
+              "lock": true,
+              "name": "onlineGameBtn_online",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 60
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              },
+              "Visible": false
+            }
+          ],
+          "id": {
+            "value": "23b92ebf-e781-41e5-a1d9-6e0472aaf0e3"
+          },
+          "lock": true,
+          "name": "OnlineGameLayout",
+          "pos": {
+            "UDim_X": {
+              "Offect": 20
+            },
+            "UDim_Y": {
+              "Offect": 90
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 160
+            },
+            "UDim_Y": {
+              "Offect": 120
+            }
+          },
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "Alpha": 0.5,
+              "BackgroundColours": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BackgroundEnabled": true,
+              "id": {
+                "value": "2be694c5-3a2b-49a9-8823-883ee69cade2"
+              },
+              "Image": {
+                "asset": "",
+                "selector": ""
+              },
+              "lock": true,
+              "name": "gameInfoBg",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font_size": 14,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "b986047f-624e-4412-94f1-ef3c5a95d3d8"
+              },
+              "lock": true,
+              "name": "playerCountText",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "总人数：1/20",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen",
+              "word_warpped": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font_size": 14,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "2d0126ed-b253-40d2-9442-672c6d559d82"
+              },
+              "lock": true,
+              "name": "scoreText",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.5
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "分数: 300",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen",
+              "word_warpped": false
+            }
+          ],
+          "id": {
+            "value": "01908937-33d9-470d-922e-93ffc1575cc0"
+          },
+          "lock": true,
+          "name": "SingleGameInfoLayout",
+          "pos": {
+            "UDim_X": {
+              "Offect": -30
+            }
+          },
+          "size": {
+            "UDim_Y": {
+              "Offect": 48
+            }
+          },
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "BorderColor": {
+                "b": 67,
+                "g": 59,
+                "r": 42
+              },
+              "BorderWidth": 5,
+              "Font_size": 34,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "a4f21611-f3b1-41d7-b8c1-c12d151659a8"
+              },
+              "lock": true,
+              "name": "CountDownText_Tip",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 60
+                }
+              },
+              "Text": "计入红队倒计时",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen",
+              "word_warpped": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "BorderColor": {
+                "b": 67,
+                "g": 59,
+                "r": 42
+              },
+              "BorderWidth": 5,
+              "Font": "BungeeRegular",
+              "Font_size": 70,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "1e28abcd-748a-4683-b093-4be28897f63b"
+              },
+              "lock": true,
+              "name": "CountDownText_Num",
+              "pos": {
+                "UDim_X": {
+                  "Offect": -6
+                },
+                "UDim_Y": {
+                  "Offect": 70
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 206
+                },
+                "UDim_Y": {
+                  "Offect": 110
+                }
+              },
+              "Text": "15",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen",
+              "word_warpped": false
+            }
+          ],
+          "id": {
+            "value": "9a0b6c91-3dc0-4c7a-b944-054a45c36b2d"
+          },
+          "lock": true,
+          "name": "PropCountDownLayout",
+          "pos": {
+            "UDim_Y": {
+              "Offect": 30
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 650
+            },
+            "UDim_Y": {
+              "Offect": 275
+            }
+          },
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
+      "id": {
+        "value": "479c0582-fb76-4401-b437-98b9a32dab2e"
+      },
+      "lock": true,
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 58
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "88de9b80aa87378b043b1ed9967446dd",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

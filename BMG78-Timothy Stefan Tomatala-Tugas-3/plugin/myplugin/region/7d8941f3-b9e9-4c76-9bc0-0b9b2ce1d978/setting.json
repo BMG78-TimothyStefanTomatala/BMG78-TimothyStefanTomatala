@@ -1,0 +1,14 @@
+{
+  "isClient": true,
+  "type": "camera",
+  "viewSetting": {
+    "canSwitch": false,
+    "personView": 3,
+    "viewCfg": {
+      "distance": 4,
+      "enableCollisionDetect": true,
+      "lockSlideScreen": false,
+      "viewFovAngle": 75
+    }
+  }
+}

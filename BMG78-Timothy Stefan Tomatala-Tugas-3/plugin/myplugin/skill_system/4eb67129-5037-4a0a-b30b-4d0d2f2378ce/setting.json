@@ -1,0 +1,200 @@
+{
+  "__OBJ_TYPE": "SkillSystemCfg",
+  "AntiClockwise": true,
+  "attackBound": {
+    "__OBJ_TYPE": "AttackBound",
+    "angle": {
+      "__OBJ_TYPE": "ValueRange",
+      "max": 360,
+      "min": 0
+    },
+    "height": 1,
+    "height_c": 1.5,
+    "memory": {
+      "__OBJ_TYPE": "BoundingVolumeMemory",
+      "Capsule": "",
+      "Cylinder": "",
+      "Sector": "",
+      "Sphere": ""
+    },
+    "position": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.6
+    },
+    "preview_dialog": {
+      "__OBJ_TYPE": "CollisionboxPreview",
+      "preview": false
+    },
+    "radius": 0.5,
+    "radius_c": 0.5,
+    "rotate": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "size": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "type": "Box"
+  },
+  "attackBoundSkillSystemCfg": {
+    "__OBJ_TYPE": "BoundPreview",
+    "angle": {
+      "__OBJ_TYPE": "ValueRange",
+      "max": 360,
+      "min": 0
+    },
+    "height": 1,
+    "height_c": 1.5,
+    "memory": {
+      "__OBJ_TYPE": "BoundingVolumeMemory",
+      "Capsule": "",
+      "Cylinder": "",
+      "Sector": "",
+      "Sphere": ""
+    },
+    "position": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.6
+    },
+    "radius": 0.5,
+    "radius_c": 0.5,
+    "rotate": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "size": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "type": "Box"
+  },
+  "attackTarget": {
+    "__OBJ_TYPE": "AttackTarget",
+    "attackEntity": "hitAllConfigEntity",
+    "attackTeam": "hitAllTeam",
+    "entityList": [],
+    "targetType": "hitNpc",
+    "teamList": []
+  },
+  "castAction": {
+    "__OBJ_TYPE": "SkillReleaseAction",
+    "castAction": "attack",
+    "castActionTime": {
+      "__OBJ_TYPE": "Time",
+      "value": 20
+    },
+    "custom_time": true
+  },
+  "castEffect": {
+    "__OBJ_TYPE": "EntityEffect",
+    "effect": {
+      "__OBJ_TYPE": "Resource_Effect",
+      "asset": "asset/Actor/charactor/charactor_boy/effect/jingqiwuqi_01.effect",
+      "selector": ""
+    },
+    "once": true,
+    "pos": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 8,
+      "y": 8,
+      "z": 8
+    },
+    "selfOnly": false,
+    "yaw": 0
+  },
+  "castInterval": {
+    "__OBJ_TYPE": "Time",
+    "value": 0
+  },
+  "castSound": {
+    "__OBJ_TYPE": "CastSound",
+    "loop": false,
+    "selfOnly": false,
+    "sound": {
+      "__OBJ_TYPE": "Resource_Sound",
+      "asset": "",
+      "selector": ""
+    },
+    "volume": {
+      "__OBJ_TYPE": "Percentage",
+      "value": 1
+    }
+  },
+  "cdAnimation": "BottomToTop",
+  "cdTime": {
+    "__OBJ_TYPE": "Time",
+    "value": 20
+  },
+  "damage": 20,
+  "enableCdMask": true,
+  "enableCdTip": true,
+  "FillPosition": "Top_Vertical",
+  "FillType": "Vertical",
+  "hitEntitySound": {
+    "__OBJ_TYPE": "CastSound",
+    "loop": false,
+    "selfOnly": false,
+    "sound": {
+      "__OBJ_TYPE": "Resource_Sound",
+      "asset": "",
+      "selector": ""
+    },
+    "volume": {
+      "__OBJ_TYPE": "Percentage",
+      "value": 1
+    }
+  },
+  "hurtDistance": 0.5,
+  "isLimit": false,
+  "isShowCdPoint": false,
+  "isTouch": false,
+  "lifeTime": {
+    "__OBJ_TYPE": "Time",
+    "value": 2
+  },
+  "maxAttackNumber": 1,
+  "missile": "a63a40d2-8c52-4c9f-b1a8-8445c1d517cb",
+  "name": {
+    "__OBJ_TYPE": "Text",
+    "value": "skill_system_4eb67129-5037-4a0a-b30b-4d0d2f2378ce"
+  },
+  "preKillTime": {
+    "__OBJ_TYPE": "Time",
+    "value": 0
+  },
+  "skill1": "4eb67129-5037-4a0a-b30b-4d0d2f2378ce",
+  "skill2": "4b9cfc93-92be-408c-a944-3fd74676aa0f",
+  "skillIcon": {
+    "__OBJ_TYPE": "Resource_SkillTexture",
+    "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png",
+    "selector": ""
+  },
+  "skillIconPos": {
+    "__OBJ_TYPE": "SkillIconPos",
+    "area_number": 7
+  },
+  "skillIconPushed": {
+    "__OBJ_TYPE": "Resource_SkillTexture",
+    "asset": "asset/Texture/Skill/common/icon_近战攻击_nor.png",
+    "selector": ""
+  }
+}

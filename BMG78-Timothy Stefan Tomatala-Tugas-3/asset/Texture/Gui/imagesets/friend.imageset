@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" name="friend" nativeHorzRes="1170" nativeVertRes="256" imagefile="friend.png" version="2">
+    <Image width="1170" name="bg_HaoYouLieBiao" yPos="0" xPos="0" height="120"/>
+    <Image width="414" name="taskInfoBack" yPos="120" xPos="0" height="50"/>
+    <Image width="220" name="icon_AddFriend_Hui" yPos="170" xPos="0" height="68"/>
+    <Image width="220" name="icon_AddFriend" yPos="170" xPos="220" height="68"/>
+    <Image width="82" name="bg_HaoYouTouXiang" yPos="120" xPos="440" height="82"/>
+    <Image width="74" name="TouXiangJiaZaiZhong" yPos="120" xPos="522" height="74"/>
+    <Image width="87" name="btnInvite_hui" yPos="120" xPos="596" height="68"/>
+    <Image width="87" name="btnchat" yPos="188" xPos="596" height="68"/>
+    <Image width="87" name="btnInvite" yPos="120" xPos="683" height="68"/>
+    <Image width="86" name="icon_NO" yPos="188" xPos="683" height="68"/>
+    <Image width="86" name="icon_YES" yPos="188" xPos="769" height="68"/>
+    <Image width="60" name="ICON_back_setting" yPos="194" xPos="522" height="60"/>
+    <Image width="32" name="taskNameBack" yPos="202" xPos="440" height="50"/>
+    <Image width="48" name="icon_friends" yPos="202" xPos="472" height="48"/>
+    <Image width="40" name="btnPrivateSelect" yPos="120" xPos="770" height="40"/>
+    <Image width="40" name="btnPublic" yPos="120" xPos="810" height="40"/>
+    <Image width="40" name="btnPrivate" yPos="120" xPos="850" height="40"/>
+    <Image width="45" name="iconWarn" yPos="160" xPos="855" height="37"/>
+    <Image width="86" name="MVP" yPos="120" xPos="890" height="24"/>
+    <Image width="85" name="MVP_Pro" yPos="160" xPos="770" height="24"/>
+    <Image width="56" name="VIP_Pro" yPos="197" xPos="855" height="24"/>
+    <Image width="48" name="VIP" yPos="221" xPos="855" height="24"/>
+    <Image width="24" name="icon_boy" yPos="120" xPos="414" height="24"/>
+    <Image width="24" name="icon_girl" yPos="144" xPos="414" height="24"/>
+    <Image width="22" name="img_+_unable" yPos="221" xPos="903" height="22"/>
+    <Image width="22" name="img_+" yPos="144" xPos="900" height="22"/>
+    <Image width="16" name="iconOffline" yPos="238" xPos="0" height="16"/>
+    <Image width="16" name="iconOnline" yPos="238" xPos="16" height="16"/>
+    <Image width="16" name="iconOnGame" yPos="238" xPos="32" height="16"/>
+    <Image width="10" name="HuaDongTiao_ShangBu" yPos="144" xPos="890" height="6"/>
+    <Image width="10" name="HuaDongTiao_DIBu" yPos="150" xPos="890" height="6"/>
+</Imageset>

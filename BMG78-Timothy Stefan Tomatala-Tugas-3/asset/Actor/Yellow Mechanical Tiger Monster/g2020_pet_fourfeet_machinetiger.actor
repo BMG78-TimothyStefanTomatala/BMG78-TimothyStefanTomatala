@@ -1,0 +1,461 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2020_pet_fourfeet_machinetiger.actor" Originalscale="1 1 1" Skeleton="g2020_pet_fourfeet_actor.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1">
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="1" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2020_pet_fourfeet_actor_machinetiger.skin" ChangeColor = "5.55803e+31 3.09903e+32 2.21368e-10 1.86198e+25" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false">
+				</Skin>
+				<Skin MeshName = "g2020_pet_fourfeet_actor_machinetiger_1.skin" ChangeColor = "5.55803e+31 3.09903e+32 2.21368e-10 1.86198e+25" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="2" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2020_pet_fourfeet_actor_machinetiger.skin" ChangeColor = "5.55803e+31 3.09903e+32 2.21368e-10 1.86198e+25" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false">
+				</Skin>
+				<Skin MeshName = "g2020_pet_fourfeet_actor_machinetiger_1.skin" ChangeColor = "5.55803e+31 3.09903e+32 2.21368e-10 1.86198e+25" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "3.4" UseBloom = "true">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="1" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_food_apple.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.00771652"/>
+					<Position_Y value="0.00770724"/>
+					<Position_Z value="0.025551"/>
+					<yaw value="180"/>
+					<pitch value="2.23118e-05"/>
+					<roll value="180"/>
+					<scale value="0.7"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="10" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_lolipop_01_02.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.0565282"/>
+					<Position_Y value="-0.0125183"/>
+					<Position_Z value="0.0645785"/>
+					<yaw value="-153.2"/>
+					<pitch value="-10.7502"/>
+					<roll value="95.558"/>
+					<scale value="0.8"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="11" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_lolipop_02_01.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.0662918"/>
+					<Position_Y value="-0.00930558"/>
+					<Position_Z value="0.101795"/>
+					<yaw value="-153.2"/>
+					<pitch value="-10.7502"/>
+					<roll value="95.558"/>
+					<scale value="0.7"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="12" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_lolipop_02_02.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.0674823"/>
+					<Position_Y value="-0.0104303"/>
+					<Position_Z value="0.104739"/>
+					<yaw value="-153.2"/>
+					<pitch value="-10.7502"/>
+					<roll value="95.558"/>
+					<scale value="0.7"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="13" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_lolipop_03_01.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.098096"/>
+					<Position_Y value="0.0122919"/>
+					<Position_Z value="0.144607"/>
+					<yaw value="-165"/>
+					<pitch value="2.15515e-05"/>
+					<roll value="-180"/>
+					<scale value="0.7"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="14" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_lolipop_model_03_02.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.0886676"/>
+					<Position_Y value="-0.000807413"/>
+					<Position_Z value="0.0965033"/>
+					<yaw value="-165"/>
+					<pitch value="0"/>
+					<roll value="-180"/>
+					<scale value="0.7"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="15" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_food_f01.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.0802806"/>
+					<Position_Y value="0.00266477"/>
+					<Position_Z value="-0.00951886"/>
+					<yaw value="-24.5"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="0.5"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="2" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2024_food_burger.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.0211971"/>
+					<Position_Y value="-0.00744355"/>
+					<Position_Z value="-0.00562639"/>
+					<yaw value="-22.5"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="0.7"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="21" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_hotdog_01.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.046858"/>
+					<Position_Y value="-0.106414"/>
+					<Position_Z value="-0.0108688"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.6"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="23" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_food_goldapple.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="-0.00874634"/>
+					<Position_Y value="0.00759644"/>
+					<Position_Z value="0.0891553"/>
+					<yaw value="145.936"/>
+					<pitch value="-76.5365"/>
+					<roll value="-163.994"/>
+					<scale value="0.4"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="3" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2022_drink_tea.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.0288837"/>
+					<Position_Y value="-0.1"/>
+					<Position_Z value="0.00311984"/>
+					<yaw value="145.339"/>
+					<pitch value="-49.9065"/>
+					<roll value="141.069"/>
+					<scale value="0.7"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="4" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2023_drink_coke.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.0244131"/>
+					<Position_Y value="0.0145061"/>
+					<Position_Z value="0.094583"/>
+					<yaw value="-175.5"/>
+					<pitch value="2.39936e-05"/>
+					<roll value="180"/>
+					<scale value="0.7"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="5" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2021_food_cookie.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.00505809"/>
+					<Position_Y value="-0.0135633"/>
+					<Position_Z value="-0.0174454"/>
+					<yaw value="70.3813"/>
+					<pitch value="70.662"/>
+					<roll value="113.49"/>
+					<scale value="0.7"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="50" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_pet_food_03.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.0264544"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.164306"/>
+					<yaw value="90"/>
+					<pitch value="-1.70755e-06"/>
+					<roll value="-90"/>
+					<scale value="0.35"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="51" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_pet_food_02.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.026"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.164"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="0.35"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="52" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_pet_food_04.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.026"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.164"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<roll value="-90"/>
+					<scale value="0.35"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="53" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_pet_food_01.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.026"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.164"/>
+					<yaw value="-90"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="0.35"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="6" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2025_drink_juice.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.04"/>
+					<Position_Y value="0.0174598"/>
+					<Position_Z value="0.0621257"/>
+					<yaw value="167.171"/>
+					<pitch value="6.83527"/>
+					<roll value="-178.528"/>
+					<scale value="0.7"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="7" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2026_drink_milk.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.06324"/>
+					<Position_Y value="0.0594766"/>
+					<Position_Z value="0.0208574"/>
+					<yaw value="-138.06"/>
+					<pitch value="12.0356"/>
+					<roll value="-103.971"/>
+					<scale value="0.6"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="8" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2024_food_pizza.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.0635172"/>
+					<Position_Y value="0.0546532"/>
+					<Position_Z value="0.0364902"/>
+					<yaw value="-153.763"/>
+					<pitch value="-8.32228"/>
+					<roll value="-83.4562"/>
+					<scale value="0.7"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="mouth_pet" SlaveName="9" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2020_lolipop_01_01.mesh"/>
+					<SocketName value="s_pet_fourfeet_mouth"/>
+					<Position_X value="0.0625075"/>
+					<Position_Y value="-0.00893679"/>
+					<Position_Z value="0.080175"/>
+					<yaw value="-153.199"/>
+					<pitch value="-10.7502"/>
+					<roll value="94.058"/>
+					<scale value="0.8"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="wing" SlaveName="1" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2020_pet_fourfeet_actor_wings.skin" ChangeColor = "1.12572e+24 1.09856e+27 7.55508e+31 1.81786e+31" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="backflip" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_backflip.anim" BeginTime = "0" Times = "1" Length = "1.4" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="bounce" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_bounce.anim" BeginTime = "0" Times = "1" Length = "1.8" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="bounce1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_bounce.anim" BeginTime = "0" Times = "1" Length = "1.8" FadeTime = "0" Channel = "" TimeScale = "1.4">
+				</Animation>
+			</Skill>
+			<Skill Name="dance" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_dance.anim" BeginTime = "0" Times = "-1" Length = "3.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="eat1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_eat.anim" BeginTime = "0" Times = "-1" Length = "3.133" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="eat" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_eat.anim" BeginTime = "0" Times = "1" Length = "3.133" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="eat_wing" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_eat_fly.anim" BeginTime = "0" Times = "1" Length = "2.466" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="float" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_float.anim" BeginTime = "0" Times = "-1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="getdown" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_getdown.anim" BeginTime = "0" Times = "-1" Length = "1.333" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="hug" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_hug.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle_wing" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_idle_fly.anim" BeginTime = "0" Times = "-1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="qiaoqiaoban" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_sit.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="qiuqian" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_sit.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="roll" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_roll.anim" BeginTime = "0" Times = "1" Length = "3.166" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_run.anim" BeginTime = "0" Times = "-1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="run_wing" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_move_fly.anim" BeginTime = "0" Times = "-1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="sit" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_sit.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="sit1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_sit.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="sit2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_sit.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="sleep" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_sleep.anim" BeginTime = "0" Times = "-1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="sleep1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_sleep.anim" BeginTime = "0" Times = "-1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="walk" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_walk.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="jump1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_jump_01.anim" BeginTime = "0" Times = "1" Length = "0.533" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="jump_fall1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2020_pet_fourfeet_motion_jump_02.anim" BeginTime = "0" Times = "1" Length = "1.233" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2020_pet_fourfeet_motion_bounce.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_dance.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_eat.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_float.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_getdown.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_hug.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_idle.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_roll.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_run.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_sleep.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_jump_01.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_jump_02.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_walk.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_sit.anim"/>
+				<Anim Name="g2020_pet_fourfeet_eat_fly.anim"/>
+				<Anim Name="g2020_pet_fourfeet_idle_fly.anim"/>
+				<Anim Name="g2020_pet_fourfeet_move_fly.anim"/>
+				<Anim Name="g2020_pet_pet_sleep1.anim"/>
+				<Anim Name="g2020_pet_fourfeet_motion_backflip.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

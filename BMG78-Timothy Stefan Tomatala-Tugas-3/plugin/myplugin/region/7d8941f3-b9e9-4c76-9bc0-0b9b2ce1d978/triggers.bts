@@ -1,0 +1,3 @@
+REGION_ENTER {
+	ShowSystemChat(entity = $obj1, key = "2cfb3b46-433a-4918-9d14-3563382a640b")
+}

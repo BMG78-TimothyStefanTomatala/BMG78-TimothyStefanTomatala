@@ -1,0 +1,104 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "66903577-507e-4615-b8e2-cc24cdbed395"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/28ef0f89-c683-4ca6-af21-124dce7e1016"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 20
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "471caf73-74d9-42e4-b3db-604668d323c8"
+              },
+              "pos": {
+                "x": 718,
+                "y": 384
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "66903577-507e-4615-b8e2-cc24cdbed395"
+              },
+              "pos": {
+                "x": 1178,
+                "y": 296
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "12cef7fc-12ea-404c-8114-b67957e33084"
+            },
+            "type": "Trigger_MeshPartTouchEntityBegin"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "471caf73-74d9-42e4-b3db-604668d323c8"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "dd8fe39f-8c16-48d0-992e-51206bdfa213"
+            }
+          },
+          "type": "Trigger_MeshPartTouchEntityBegin"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "c75e0e0bd48f54f31756edaeb3f6e40c"
+    },
+    "VERSION": "0.22"
+  }
+}

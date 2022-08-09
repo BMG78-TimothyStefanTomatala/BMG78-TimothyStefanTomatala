@@ -1,0 +1,16 @@
+{
+  "data": {
+    "deadRemove": true,
+    "jumpSpeed": 20,
+    "name": {
+      "value": "buff_28ef0f89-c683-4ca6-af21-124dce7e1016"
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "53e79f736eb2cf4bd2fc5c0d48a0a43c"
+    },
+    "VERSION": "0.22"
+  }
+}

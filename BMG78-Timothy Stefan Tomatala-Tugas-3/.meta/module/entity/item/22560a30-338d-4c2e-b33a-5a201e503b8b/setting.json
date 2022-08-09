@@ -1,0 +1,60 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Yellow Mechanical Tiger Monster/g2020_pet_fourfeet_machinetiger.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "maxVisualAngle": 270,
+      "skillList": [
+        {
+          "attackDis": 1,
+          "fullName": "myplugin/699ec0f7-9148-4047-bb49-7a76e575f783"
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 5
+    },
+    "AI_patrol": {
+      "patrolDistance": 2,
+      "patrolMode": "randomPath"
+    },
+    "AI_walkRules": {
+      "faceCliff": {
+        "height": 1
+      }
+    },
+    "autoMove": true,
+    "canClick": true,
+    "canJump": false,
+    "collision": true,
+    "destroyTime": {
+      "value": 60
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/Actor/Yellow Mechanical Tiger Monster/g2020_pet_fourfeet_machinetiger.actor"
+    },
+    "hideHp": false,
+    "hideName": true,
+    "hpBarHeight": 0.1,
+    "hpBarWidth": 0.4,
+    "hurtResistantTime": {
+      "value": 60
+    },
+    "maxHp": 100,
+    "moveSpeed": 2,
+    "name": {
+      "value": "entity_22560a30-338d-4c2e-b33a-5a201e503b8b"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5843d02c0ce6d90284b7ad4cf7207424",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

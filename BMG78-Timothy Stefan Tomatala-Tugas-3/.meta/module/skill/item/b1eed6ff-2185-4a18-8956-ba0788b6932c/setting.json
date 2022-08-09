@@ -1,0 +1,46 @@
+{
+  "data": {
+    "cdTime": {
+      "value": 60
+    },
+    "container": {
+      "autoReloadSkill": "myplugin/b1eed6ff-2185-4a18-8956-ba0788b6932c",
+      "isValid": true
+    },
+    "enableCdTip": true,
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_b1eed6ff-2185-4a18-8956-ba0788b6932c"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/1d90817e-e67e-4b47-a72d-6d9d3abfa84a"
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_开镜_act.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/Texture/Skill/common/icon_开镜_nor.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "75c344129ba8ec3d569a9a9d5fcb4c64",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}
